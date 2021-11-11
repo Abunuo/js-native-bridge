@@ -1,7 +1,7 @@
 {
-  "name": "js-bridge",
+  "name": "@abunuo/js-bridge",
   "version": "1.0.0",
-  "description": "a common jsBridge for webview",
+  "description": "a webview jsBridge for native",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,8 +9,17 @@
   "keywords": [
     "jsBridge",
     "webview",
-    "postmessage"
+    "react native",
+    "IOS",
+    "Android"
   ],
   "author": "Abunuo",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Abunuo/js-native-bridge.git"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  }
 }
