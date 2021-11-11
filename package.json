@@ -1,0 +1,16 @@
+{
+  "name": "js-bridge",
+  "version": "1.0.0",
+  "description": "a common jsBridge for webview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jsBridge",
+    "webview",
+    "postmessage"
+  ],
+  "author": "Abunuo",
+  "license": "MIT"
+}
