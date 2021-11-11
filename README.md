@@ -5,7 +5,7 @@
 ## Installation
 
 ```shell
-npm install --save jsBridge
+npm install @abunuo/js-bridge --save
 ```
 
 ## Usage for frontEnd
