@@ -1,5 +1,5 @@
 {
-  "name": "javescript-native-bridge",
+  "name": "javascript-native-bridge",
   "version": "1.0.0",
   "description": "a webview jsBridge for native",
   "main": "index.js",

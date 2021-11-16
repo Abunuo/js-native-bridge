@@ -5,7 +5,7 @@
 ## Installation
 
 ```shell
-npm install @abunuo/js-bridge --save
+npm install javascript-native-bridge --save
 ```
 
 ## Usage for frontEnd
@@ -16,8 +16,8 @@ import createNativeBridge from 'jsBridge'
 // eg: nativeBridge
 // ios: window.webkit.messageHandlers.nativeBridge
 // Android: window.nativeBridge
-// rn: window.reactNativeWebview
-createNativeBridge(nativeBridge, BridgeName = 'jsBridge')
+// rn: window.ReactNativeWebView
+createNativeBridge(BridgeName = 'jsBridge', nativeBridge = window.ReactNativeWebView)
 
 jsBridge.invoke(type, data)
 
