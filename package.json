@@ -1,6 +1,6 @@
 {
-  "name": "@abunuo/js-bridge",
-  "version": "1.0.2",
+  "name": "javescript-native-bridge",
+  "version": "1.0.0",
   "description": "a webview jsBridge for native",
   "main": "index.js",
   "scripts": {
@@ -17,9 +17,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Abunuo/js-native-bridge.git"
+    "url": "git+https://github.com/Abunuo/js-native-bridge.git"
   },
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
-  }
+  "homepage": "https://github.com/Abunuo/js-native-bridge#readme"
 }
